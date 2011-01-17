@@ -1,0 +1,31 @@
+onProximityFade
+--------------
+Copyright (c) 2009 Jakub Linowski. Licensed under the MIT license.
+http://www.linowski.ca
+http://linowski.ca/experiments/onProximityFade/demo.html
+http://plugins.jquery.com/project/onproximityfade
+
+
+Overview
+--------
+A jQuery plugin for fading elements based on their proximity or distance to the mouse. 
+
+
+Usage
+--------
+* Name the to be faded elements' CSS class names as "fadeBox". 
+
+* And you're good to go.
+
+* To customize the minimum and maximum opacities and distance to object use the following code:
+
+<script language="Javascript" type="text/javascript">
+opf = {
+	farOpacity : 0.05,
+	farDistanceMax : 100,
+	closeOpacity : 1,
+	closeDistanceMin : 0,
+	className : "fadeBox" 
+};
+</script>
+
